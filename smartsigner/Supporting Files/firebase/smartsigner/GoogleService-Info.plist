@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>103288221405-2qjkke34ugvk178qsvq19bsrel2rbomu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.103288221405-2qjkke34ugvk178qsvq19bsrel2rbomu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>103288221405-hbah5q0j6703nsjrtsnu6n2rpcg6b1aq.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDclRg2bimLLFHOVWzhFbUKgSduh8RCHBs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>103288221405</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.seneka.smartsigner.v2</string>
+	<key>PROJECT_ID</key>
+	<string>seneka-ebdys</string>
+	<key>STORAGE_BUCKET</key>
+	<string>seneka-ebdys.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:103288221405:ios:c2742855395952f4fd7534</string>
+	<key>DATABASE_URL</key>
+	<string>https://seneka-ebdys.firebaseio.com</string>
+</dict>
+</plist>

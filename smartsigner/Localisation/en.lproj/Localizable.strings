@@ -1,0 +1,371 @@
+/* 
+  Localizable.strings
+  smartsigner
+
+  Created by Serdar Coskun on 20.09.2018.
+  Copyright © 2018 Seneka. All rights reserved.
+*/
+
+"warning" = "Warning";
+"empty_string" = " ";
+"wildcard_string" = "::1";
+"error" = "Error";
+"ok" = "Ok";
+"error_unexpected"="We have encountered an unexpected error while performing your request. Please try again later.";
+"receiver" = "Receiver";
+"show_details" = "Show details";
+"hide_details" = "Hide details";
+"number" = "Number";
+"barcode" = "Barcode";
+"confirm" = "Confirm";
+"cancel" = "Cancel";
+"close" = "Close";
+"unimplemented" = "Not Implemented.";
+"begin" = "Begin";
+"end" = "End";
+"show_test_servers" = "Show test installations";
+"hide_test_servers" = "Hide test installations";
+
+"login_button_title" = "LOGIN";
+"login_corporate_code"="Kurum Kodu";
+"login_username"="User name";
+"login_password"="Password";
+"login_type_mobile"="MOBILE SIGN";
+"login_type_username"="USER NAME";
+"login_national_identity"="National Identity No";
+"login_error_must_enter_company_code" = "You must select a corporation.";
+"login_error_must_enter_username" = "You must enter a username";
+"login_error_must_enter_password" = "You must enter a valid password";
+"login_error_incorrect_username_or_password" = "Incorrect username or password.";
+"btn_select_service_empty" = "Select an institution";
+"login_mobile_sign_text" = "::1 i am signing into ::2 document management system.";
+
+"btn_fast_login" = "Fast Login";
+
+"fast_login_sign_description" = "Login with saved credentials";
+"fast_login_logine_error_message" = "Fast login failed, do you want to remove saved fast login credentials?";
+"fast_login_alert_not_set_message" = "You have to login and activate fast login for your account in order to activate this feature.";
+"fast_login_first_time_setup_message" = "You can login with Touch Id or Face Id when fast login feature is activated. Would you like to activate fast login for your current account?";
+
+"fast_login_confirm_message" = "Would you like to enable fast login feature for this account? Login information will be overriden if you have enabled this feature for another account.";
+
+"fast_login_select_action" = "Please pick an action";
+"fast_login_remove" = "Clear credentials";
+"fasr_login_enable_for_this_account" = "Enable for this account";
+"fast_login_enable_success" = "Succesfuly enabled fast login for this account";
+"fast_login_clear_success" = "Fast login credentials have been removed.";
+
+"document_notes" = "Notes";
+"document_versions" = "Versions";
+"document_history" = "History";
+
+"progress_loading_folder_contents" = "Loading folder contents";
+"progress_loading_attachment" = "Loading Attachment";
+
+"sign" = "Sign";       //imzala
+"sign_mobile" = "Sign with mobile";
+"reject" = "Reject";     //reddet
+"initials" = "Paraph";   //paraf
+"transfer" = "Transfer";   //havale
+"notes" = "Notes";      //notlar
+"workflow" = "Workflow";   //iş akışı
+"remove_document" = "Remove Document";    //dosyayı kaldır
+"take_back" = "Pull Back";  //geri çek
+"give_back" = "Return";  //iade
+"versions" = "Versions";   //versiyonlar
+"history" = "History";    //tarihçe
+"archive" = "Archive";
+"e_sign" = "E-Sign";
+"sign_smart_card_error_no_sign_data" = "No sign data found!";
+"sign_smart_card_please_enter_pin" = "You must enter your pin in order to sign.";
+"read_again" ="Read Again";
+"save"="Save";
+"qr_code"="QR Code";
+"sign_smart_cart_certificate_not_found" = "There are no certificates found in your device.";
+"sign_smart_card_error_cannot_activate_show_qr_code" = "The app has failed activating the device with current QRCode, you need to re scan the qrcode";
+"sign_smart_card_please_select_reader" = "Please select a reader";
+"action_sign_error_mobile_sign_not_found" = "You must login with mobile sign in order to sign document.";
+"action_sign_message_sign_confirm" = "Are you sure that you want to sign this document?";
+"action_sign_message_paraph_confirm" = "Are you sure that you want to paraph this document?";
+"version" = "Version";
+"target_department" = "Target Department";
+"description" = "Description";
+"logout" = "Logout";
+"logout_message" = "Are you sure that you want to log out?";
+
+"delegate_tabbar_title_search" = "Search Delegates";
+"delegate_tabbar_title_create" = "Give Delegate";
+"delegate_title" = "Delegation";
+"delegate_search_delegate_name_placeholder" = "Delegate";
+"delegate_search_main_name_placeholder" = "Main";
+"delegate_search_prevail" = "Prevail";
+"delegate_search_forfeit" = "Forfeit";
+"delegate_search_all" = "All";
+"delegate_search_active" = "Active";
+"delegate_search_passive" = "Passive";
+"delegate_search_list" = "List";
+"delegate_search_begin_date" = "Begin Date";
+"delegate_search_end_date" = "End Date";
+"detailed_search" = "SEARCH";
+"select" = "Select";
+"unselect" = "Unselect";
+"notes_no_notes_to_show" = "There are no notes found for this document.";
+"delegated_by" = "delegated by";
+
+"delegate_search_not_found" = "There are no users found for your query";
+
+"begin_date" = "Begin Date";
+"end_date" = "End Date";
+"document_number" = "Document Number";
+"document_barcode_or_subject" = "Barcode of Subject";
+"document_paraph" = "Paraph";
+"success" = "Success";
+"document_takeback_message" = "Are you sure that you want to take back this document?";
+"document_reject_message" = "Are you sure that you want to reject this document?";
+"document_reject_placeholder" = "Description (required)";
+"yes" = "Yes";
+"no" = "No";
+
+"document_giveback_placeholder" = "Return note (required)";
+"document_giveback_message" = "Please enter a return note";
+
+"depoartment_type_empty" = "";
+"depoartment_type_merkez_birim" = "Central Unit";
+"depoartment_type_bagli_kurulus" = "Connected Institude";
+"depoartment_type_tasra_birimi" = "Village Unit";
+"depoartment_type_diger_kamu_kurum" = "Other Goverment Agency";
+"depoartment_type_sirket" = "Company";
+"depoartment_type_sahis" = "Person";
+
+"distribution_type_geregi" = "Required";
+"distribution_type_information" = "Information";
+"distribution_type_coordinated" = "Coordinated";
+"distribution_type_do_not_use" = "Don't use";
+"distribution_type_arz" = "Demand";
+"distribution_type_gorus" = "Opinion";
+
+"document_urgency_normal" = "Normal";
+"document_urgency_ivedi" = "Urgent";
+"document_urgency_cok_ivedi" = "Very urgent";
+"document_urgency_gunlu" = "Date Setted";
+
+"transfer_source_depoartment" = "Department";
+"transfer_source_user" = "User";
+"transfer_source_distribution" = "Distribution Group";
+
+"transfer_source_tap_here_to_add" = "Tap here to add a target";
+
+"transfer_source_alert_title" = "Transfer Target";
+"transfer_source_alert_message" = "Please choose a target type";
+
+"transfer_source_error_no_targets_set" = "You must add at least one transfer target.";
+
+"recently_used" = "Recently Used";
+"search_result" = "Search Results";
+
+"department_type_select_placeholder" = "Department Type";
+"department_search_placeholder" = "Search query";
+
+"department_search_error_department_empty" = "You must select a department type.";
+"department_select_button_title" = "Add selected departments (::1)";
+"department_select_button_title_empty" = "Please select department(s).";
+
+"remove_transfer_message" = "Are you sure that you want to remove ::1 from transder list?";
+"transfer_search_error_query_empty" = "You must type a search query";
+
+"user_select_button_title" = "Add selected users (::1)";
+"user_select_button_title_empty" = "Please select user(s).";
+"target_user" = "Target User";
+"submit" = "Submit";
+"target_department_group" = "Target Department Group";
+
+"department_group_select_button_title" = "Add selected department group(s) (::1)";
+"department_group_select_button_title_empty" = "Please select department group(s)";
+"department_group_error_you_must_select_at_least_one" = "You must select at least one department.";
+
+"transfer_alert_submit_message_enter_note" = "Please enter a note for your transfer (optional)";
+"transfer_alert_submit_success" = "The document has been successfully transfered to targets";
+
+
+"transfer_date_header_tap_to_set_date" = "Tap here to set a date";
+"transfer_date_header_selected_date" = "Transfer Date: ::1";
+"transfer_date_header_alert_remove_date" = "Remove date";
+"transfer_date_header_alert_select_date" = "Select";
+
+"main_user" = "Owner";
+"delegate_user" = "Delegate";
+"give_delegate_tap_here_to_choose" = "Tap here to choose";
+"give_delegate_tap_here_to_select_date" = "Tap here to select date";
+
+"give_delegation_dont_see_older_items" = "Do not show older items";
+"give_delegation_dont_see_older_received_items" = "Do not show older received items";
+"give_delegation_asil_user_can_operate_read_only_mode" = "Delegate user can operate in read only mode";
+"give_delegation_show_document_notes" = "Show document notes";
+"give_delegation_dont_see_older_items_for_department" = "Do no show older items for department";
+"give_delegation_dont_see_older_received_items_for_department" = "Do not show older received items for department";
+"give_delegation_enter_note_placeholder" = "Description (required)";
+"give_delegation_is_active" = "Is delegation active";
+
+"give_delegation_save_error_must_select_main_user" = "You must select a main user";
+"give_delegation_save_error_must_select_delegate_user" = "You must select a main user";
+"give_delegation_save_error_must_select_date" = "You must select a begin and an end date";
+"give_delegation_save_success" = "Delegation process has been completed succesfuly.";
+
+"document_action_archive_message"="Are you sure that you will put this document to archive? (Document number ::1)";
+
+"user_search_title" = "Search User";
+
+"sign_smart_card_error_locked" = "Smart card is locked!";
+"sign_smart_card_error_wrong_pin" = "Wrong pin!";
+"sign_smart_card_error_generic" = "We have encountered an unexpexted error while signing your document. Please consult your system administrator";
+"sign_smart_card_success" = "E-Sign has been completed successfully";
+"sign_mobile_success" = "Mobile signing has been completed succesfully.";
+"smart_card_status_searching" = "Searching for smart card readers.";
+"smart_card_status_connecting" = "Connecting to smartcard reader";
+"smart_card_status_activating" = "Verifying smart card license";
+"smart_card_status_getting_certificates" = "Loading certificates";
+"smart_card_select_a_certificate" = "Please select a certificate";
+"smart_card_selected_certificate" = "Selected certificate";
+"e_sign_creating_package" = "Creating e-sign package";
+"e_sign_signing_document" = "Signing document";
+"e_sign_alert_register_device_message" = "The device that you have chosen has not been registered to the app. Please scan the qr-code found on your device with the following screen";
+"e_sign_alert_register_device_button_scan_qr_code" = "Scan QR Code";
+"e_sign_btn_title" = "Sign";
+
+"version_alert_title" = "Warning";
+"version_alert_message" = "Your application has a new version available (Version ::1). Please update your application in order to continue";
+"version_alert_update_button_title" = "Update";
+
+"document_action_confirm_alert_message" = "Are you sure that you want to conrifm this document?";
+
+"session_logout_title" = "Warning";
+"session_logout_message" = "Your session has been expired. You will be redirected to login screen";
+
+"info" = "Info";
+"deactivate_delegate_success" = "Delegation has been deactivated successfuly";
+
+"transfer_date_action_title" = "Transfer Date";
+"transfer_date_action_remove_date" = "Remove selected date";
+"transfer_date_action_pick_new_date" = "Pick a new date";
+
+"give_back_empty_desc_error" = "You must enter a description.";
+"attachment" = "Attachment";
+
+"alert_message_pick_sign_method" = "Please select a signing method";
+"alert_message_sign_method_e_sign" = "E-Sign";
+"alert_message_sign_method_mobile_sign" = "Mobile Sign";
+"alert_message_e_sign_module_not_enabled" = "Your corporation does not have an active e-sign module.";
+"alert_mobile_sign_fingerPrint" = "Please make sure that the fingerprint that generated by your operator is equal to the fingerprint that shown below.\n\nFingerprint:\n::1";
+"alert_message_loading_notes" = "Loading notes";
+"login_error_turkish_identity_wrong" = "Please enter a valid national identity number.";
+
+"alert_error_service_selector_ios_not_enabled" = "Your corporation does not have a license for this app. Plesae contact with your system administrator.";
+
+"batch_ark_signer"="Batch Sign With ArkSigner";
+"batch_transfer" = "Batch Transfer";
+"batch_sign" = "Batch Sign";
+"retry" = "Retry";
+"batch_transfer_success" = "All documents have been transfered successfuly.";
+"batch_sign_success" = "All documents have been signed successfuly.";
+"operation_failed" = "Operation Failed";
+"operation_failed_content" = "There was an error occured while performing operation:\n::1";
+"document_related" = "Related";
+"document_attachments" = "Attachments";
+"batch_operation_cancel_alert_title" = "Cancel Batch Operation";
+"batch_operation_cancel_alert_message" = "There are unfinished operations left. Are you sure that you want to cancel all batch operations?";
+"document_attachment_physical" = "Pysical Document";
+"date" = "Date";
+"subject" = "Subject";
+"file_plan"  = "File Plan";
+"number" = "Number";
+"batch_confirm" = "Batch Confirm";
+"batch_confirm_success" = "All documents has been confirmed successfuly.";
+
+"task_number" = "Number";
+"task_creator" = "Creator";
+"task_responsive" = "Responsive";
+"task_status" = "Status";
+"task_created_at" = "Created At";
+"task_end_at" = "End At";
+"task_document" = "Document";
+"task_notes" = "Task Notes";
+"task_users" = "Users";
+"task_operations" = "Operations";
+"task_detail_title" = "Task Detail";
+"task_comment_placeholder" = "You can write your comment in here.";
+"tap_to_select" = "Tap to select";
+"tap_to_enter" = "Tap to enter";
+"task_status_waiting" = "Waiting";
+"task_status_finished" = "Finished";
+"task_status_draft" = "Draft";
+"apply_filter" = "List Items";
+"task_operation_close" = "Finish";
+"task_operatino_reopen" = "Reopen";
+"task_user_logic_select_action" = "Please select an action";
+"please_wait" = "Please wait";
+"batch_confirm_question" = "::1 documents will be confirmed.";
+"operation_cancelled" = "Operation Cancelled";
+
+"login_button_title_username" = "User Name";
+"login_button_title_mobile" = "Mobile Sign";
+"login_button_title_e_sign" = "E-Sign";
+"share_document" = "Share";
+"operation_successful" = "Operation is successful";
+"transfer_template_add_duplicate_error" = "One or more items have already been added to list. Duplicate items have not been added.";
+"end_delegation" = "End Delegation";
+"login_as_readonly" = "Read Only";
+"document_distribution_flow" = "Distribution Approval";
+"distribution_flow_segment_flow" = "Flow";
+"distribution_flow_segment_distribution" = "Actual Distribution";
+"da_flow_state_normal" = "Next Step";
+"da_flow_state_waiting" = "Waiting";
+"da_flow_state_finished" = "Finished";
+"da_flow_state_declined" = "Declined";
+"da_flow_btn_copy" = "Copy";
+"da_flow_please_select_distribution" = "Please select a distribution type";
+"da_flow_tap_here_to_add_flow" = "Tap here to add flow";
+"da_flow_tap_here_to_add_distribution" = "Tap here to add distribution";
+"da_flow_tap_here_to_add_note" = "Add Note";
+"da_flow_add_distribution_title" = "Add Distribution";
+"da_flow_add_flow_title" = "Add Flow";
+"da_flow_btn_approve_title" = "Approve";
+"da_flow_btn_decline_title" = "Decline";
+
+"use_last_distribution_automatically" = "Use last distribution automaticaly";
+"show_connected_departments" = "Show connected departments";
+"dont_warn_on_success" = "Dont notify on success";
+"automatically_add_added_department_to_flow" = "Automatically add management department to the flow";
+"dont_show_distribution_note" = "Don't show distribution note screen";
+"apply" = "Apply";
+"da_action_approve_title" = "Approve Distribution";
+"da_action_decline_title" = "Decline Distribution";
+"da_action_input_placeholder" = "Note";
+"da_action_decline_empty_error" = "You must enter a note for declining the flow.";
+"da_flow_error_approve_empty_distribution" = "You must select at least one distribution target.";
+"add_note"="Add Note";
+"push_error_document_not_found" = "This document has been modified and not available now";
+"settings_push_title" = "Enable push notifications for this device";
+"settings_language_title" = "Application language";
+"settings_biometric_title" = "Fast login";
+"settings_title" = "Application Settings";
+"settings_version" = "Application version";
+"alert_message_sign_e_sign_app" = "ArkSigner";
+"alert_e_sign_arksigner_success" = "The document has been successfully signed with ArkSigner App.";
+"alert_e_sign_arksigner_error" = "We have encountered an unexpected error while signing the document.\n::1";
+
+"batch_ark_signer_peraparing" = "Preparing documents";
+"batch_ark_signer_complete" = "Signing complete";
+"alert_e_sign_arksigner_app_not_founc" = "You have to install ArkSigner app in order to complete this operation.";
+"alert_e_sign_arksigner_download" = "Install";
+
+"alert_e_sign_disabled_message" = "You do not have license for this sign method.";
+
+"sign_queue_status_waiting" = "Waiting for response from server";
+"sign_queue_status_processing" = "Processing document";
+"sign_queue_status_error_occured" = "An error occured while signing";
+"sign_queue_status_completed" = "Signed";
+"sign_queue_status_unknown" = "Unexpected Error";
+"alert_message_sign_method_multi_mobile_sign" = "Multi Mobile Sign";
+"alert_message_multi_mobile_sim_warning" = "For your multi mobile signature transactions to proceed without any issues, the use of a new generation 128k SIM card is required. If your current SIM card is not compatible, the transactions will fail.";
+"alert_action_multi_mobile_dont_show_again" = "Don't show again";
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DistributionFlowSideMenuViewController" customModule="sanayi" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCancel" destination="LeD-tE-Wd5" id="qPM-5f-OHH"/>
+                <outlet property="constSideMenuLeft" destination="Kea-KH-fmU" id="1EY-3j-fuE"/>
+                <outlet property="constTableViewWidth" destination="ndM-B1-MXE" id="Pn8-Wy-Vgf"/>
+                <outlet property="tableView" destination="8qA-Fp-9PX" id="vOt-XF-7PY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewContainer" destination="Jat-Mz-7pI" id="dPF-Un-1Hk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jat-Mz-7pI">
+                    <rect key="frame" x="174" y="0.0" width="240" height="896"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4wS-v2-O1S">
+                            <rect key="frame" x="8" y="836" width="224" height="30"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeD-tE-Wd5" customClass="MDCButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="224" height="30"/>
+                                    <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="didTapCancel" destination="-1" eventType="touchUpInside" id="zZU-jf-imP"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="fLo-xh-nW1"/>
+                            </constraints>
+                        </stackView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8qA-Fp-9PX">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="828"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="QEU-Kr-EhN"/>
+                                <outlet property="delegate" destination="-1" id="NhI-0n-cE6"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="4wS-v2-O1S" secondAttribute="trailing" constant="8" id="6nA-l7-Vac"/>
+                        <constraint firstAttribute="bottom" secondItem="4wS-v2-O1S" secondAttribute="bottom" constant="30" id="M0A-BZ-GZP"/>
+                        <constraint firstItem="8qA-Fp-9PX" firstAttribute="top" secondItem="Jat-Mz-7pI" secondAttribute="top" id="RNy-B9-hxj"/>
+                        <constraint firstItem="4wS-v2-O1S" firstAttribute="leading" secondItem="Jat-Mz-7pI" secondAttribute="leading" constant="8" id="RQa-mx-3B1"/>
+                        <constraint firstItem="4wS-v2-O1S" firstAttribute="top" secondItem="8qA-Fp-9PX" secondAttribute="bottom" constant="8" id="XnE-l2-et6"/>
+                        <constraint firstAttribute="trailing" secondItem="8qA-Fp-9PX" secondAttribute="trailing" id="fO2-Ji-tXh"/>
+                        <constraint firstItem="8qA-Fp-9PX" firstAttribute="leading" secondItem="Jat-Mz-7pI" secondAttribute="leading" id="l48-a1-2KA"/>
+                        <constraint firstAttribute="width" constant="240" id="ndM-B1-MXE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="right" secondItem="Jat-Mz-7pI" secondAttribute="right" id="Kea-KH-fmU"/>
+                <constraint firstItem="Jat-Mz-7pI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LfC-Gi-qMY"/>
+                <constraint firstAttribute="bottom" secondItem="Jat-Mz-7pI" secondAttribute="bottom" id="nAa-V3-lyD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="80.357142857142847"/>
+        </view>
+    </objects>
+</document>

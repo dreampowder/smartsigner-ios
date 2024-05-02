@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellDetailsExpanded" rowHeight="116" id="KGk-i7-Jjw" customClass="DocumentDetailsTableViewCell" customModule="sanayi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="116"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="116"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="252" text="SAĞLIK BAKANLIĞI" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ekz-KU-H50">
+                        <rect key="frame" x="8" y="8" width="256.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alıcı: Ebys Destek" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ykg-eC-oZP">
+                        <rect key="frame" x="8" y="29" width="100.5" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14.5" id="4Lf-Hx-yds"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alıcı: Ebys Destek" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLV-pt-rZO">
+                        <rect key="frame" x="8" y="47.5" width="401" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14.5" id="I4q-Kz-g02"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alıcı: Ebys Destek" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVu-rd-Uwo">
+                        <rect key="frame" x="8" y="66" width="401" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14.5" id="9pB-9x-dqt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20.09.2018 23:13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tU-A4-esE">
+                        <rect key="frame" x="268.5" y="8" width="96.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDo-j9-RLX">
+                        <rect key="frame" x="369" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="3Yb-wm-OQb"/>
+                            <constraint firstAttribute="width" constant="40" id="vaZ-Yr-pFZ"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Paraf" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qW-Fs-dem">
+                        <rect key="frame" x="116.5" y="26.5" width="248.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alıcı: Ebys Destek" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUA-Wv-yRg">
+                        <rect key="frame" x="8" y="84.5" width="401" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14.5" id="0ze-Jp-YYW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eUA-Wv-yRg" firstAttribute="top" secondItem="PVu-rd-Uwo" secondAttribute="bottom" constant="4" id="1bF-Zg-NQa"/>
+                    <constraint firstItem="iDo-j9-RLX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="2Sg-Df-Gd8"/>
+                    <constraint firstItem="Ykg-eC-oZP" firstAttribute="top" secondItem="Ekz-KU-H50" secondAttribute="bottom" constant="4" id="2dI-rP-hmQ"/>
+                    <constraint firstItem="kLV-pt-rZO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="5wV-TC-1Yy"/>
+                    <constraint firstItem="Ekz-KU-H50" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="BnD-dy-u5g"/>
+                    <constraint firstAttribute="trailing" secondItem="iDo-j9-RLX" secondAttribute="trailing" constant="8" id="DPM-LD-5iR"/>
+                    <constraint firstItem="3tU-A4-esE" firstAttribute="leading" secondItem="Ekz-KU-H50" secondAttribute="trailing" constant="4" id="Fie-Xf-pha"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="eUA-Wv-yRg" secondAttribute="bottom" constant="8" id="K2s-it-mkK"/>
+                    <constraint firstItem="3tU-A4-esE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="LAU-p0-fn6"/>
+                    <constraint firstItem="Ekz-KU-H50" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="MiI-rj-Kco"/>
+                    <constraint firstItem="9qW-Fs-dem" firstAttribute="leading" secondItem="Ykg-eC-oZP" secondAttribute="trailing" constant="8" id="OS4-bj-SBg"/>
+                    <constraint firstItem="Ykg-eC-oZP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="OwB-Al-7NF"/>
+                    <constraint firstItem="9qW-Fs-dem" firstAttribute="top" secondItem="3tU-A4-esE" secondAttribute="bottom" constant="4" id="TDQ-rI-ANN"/>
+                    <constraint firstAttribute="trailing" secondItem="PVu-rd-Uwo" secondAttribute="trailing" constant="8" id="V2S-PG-LWl"/>
+                    <constraint firstItem="eUA-Wv-yRg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ZJK-4t-NN9"/>
+                    <constraint firstItem="iDo-j9-RLX" firstAttribute="leading" secondItem="3tU-A4-esE" secondAttribute="trailing" constant="4" id="fcz-bQ-b0n"/>
+                    <constraint firstItem="kLV-pt-rZO" firstAttribute="top" secondItem="Ykg-eC-oZP" secondAttribute="bottom" constant="4" id="hal-Pr-jiI"/>
+                    <constraint firstItem="iDo-j9-RLX" firstAttribute="leading" secondItem="9qW-Fs-dem" secondAttribute="trailing" constant="4" id="iG9-Li-tWK"/>
+                    <constraint firstItem="PVu-rd-Uwo" firstAttribute="top" secondItem="kLV-pt-rZO" secondAttribute="bottom" constant="4" id="pSX-iE-1cr"/>
+                    <constraint firstAttribute="trailing" secondItem="kLV-pt-rZO" secondAttribute="trailing" constant="8" id="spQ-kd-Sea"/>
+                    <constraint firstAttribute="trailing" secondItem="eUA-Wv-yRg" secondAttribute="trailing" constant="8" id="wnR-VC-abF"/>
+                    <constraint firstItem="PVu-rd-Uwo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="xX8-ZZ-d1f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnShowDetails" destination="iDo-j9-RLX" id="D4O-5E-nsS"/>
+                <outlet property="lblBarcode" destination="eUA-Wv-yRg" id="PkV-10-HdN"/>
+                <outlet property="lblDate" destination="3tU-A4-esE" id="DJh-A9-cit"/>
+                <outlet property="lblFrom" destination="Ekz-KU-H50" id="Kvf-5p-gcf"/>
+                <outlet property="lblNumber" destination="PVu-rd-Uwo" id="Q5g-EH-odZ"/>
+                <outlet property="lblProcess" destination="kLV-pt-rZO" id="dip-8e-T2x"/>
+                <outlet property="lblTo" destination="Ykg-eC-oZP" id="Fj1-se-ssT"/>
+                <outlet property="lblType" destination="9qW-Fs-dem" id="gQf-h8-LUM"/>
+            </connections>
+            <point key="canvasLocation" x="96.799999999999997" y="89.055472263868069"/>
+        </tableViewCell>
+    </objects>
+</document>

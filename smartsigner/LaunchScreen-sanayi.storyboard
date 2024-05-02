@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cGC-Ul-Eev">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="NiK-P8-sxF">
+            <objects>
+                <viewController id="cGC-Ul-Eev" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OU0-BM-yLc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_sanayi" translatesAutoresizingMaskIntoConstraints="NO" id="OXl-Ih-k7F">
+                                <rect key="frame" x="32" y="273" width="350" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OXl-Ih-k7F" secondAttribute="height" id="OJd-ry-Jd5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OXl-Ih-k7F" firstAttribute="centerY" secondItem="OU0-BM-yLc" secondAttribute="centerY" id="6xd-F7-Xsa"/>
+                            <constraint firstItem="OXl-Ih-k7F" firstAttribute="leading" secondItem="XG5-7e-nKH" secondAttribute="leading" constant="32" id="heB-J8-S5X"/>
+                            <constraint firstItem="OXl-Ih-k7F" firstAttribute="centerX" secondItem="OU0-BM-yLc" secondAttribute="centerX" id="pNU-wk-xYz"/>
+                            <constraint firstItem="XG5-7e-nKH" firstAttribute="trailing" secondItem="OXl-Ih-k7F" secondAttribute="trailing" constant="32" id="tNT-vD-4cY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XG5-7e-nKH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G7w-Y3-OCK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4" y="228"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_sanayi" width="2480" height="2429"/>
+    </resources>
+</document>

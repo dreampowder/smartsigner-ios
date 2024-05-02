@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "709B3B8E-5EAD-412A-9BD2-1CA52FE961C3"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "8619185D-0DC9-4064-ACDE-8FE9F9DC4758"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "C8F501C3-3EEA-41A2-B92C-87ACA68B295F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "UIViewAlertForUnsatisfiableConstraints"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "C8F501C3-3EEA-41A2-B92C-87ACA68B295F - ba3ad5676a792f38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UIViewAlertForUnsatisfiableConstraints"
+                  moduleName = "UIKitCore"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0E9F1D1-063B-4654-9BEF-B58411E7928C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/Network Layer/Client/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "865"
+            endingLineNumber = "865"
+            landmarkName = "execute(responseBlock:progressBlock:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE1E0105-87FB-404E-819F-5E84E0667CEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/ViewControllers/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "doLogin(username:password:isReadOnly:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AE1E0105-87FB-404E-819F-5E84E0667CEE - 869ff84c07c3462"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartsigner_simulator.LoginViewController.doLogin(username: Swift.String, password: Swift.String, isReadOnly: Swift.Bool) -&gt; ()"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/ViewControllers/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "234"
+                  endingLineNumber = "234"
+                  offsetFromSymbolStart = "1132">
+               </Location>
+               <Location
+                  uuid = "AE1E0105-87FB-404E-819F-5E84E0667CEE - 33522dcb8b8d8598"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;smartsigner_simulator.LoginResponse&gt;, Swift.Optional&lt;Swift.Error&gt;, Swift.Int) -&gt; () in smartsigner_simulator.LoginViewController.doLogin(username: Swift.String, password: Swift.String, isReadOnly: Swift.Bool) -&gt; ()"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/ViewControllers/Login/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "234"
+                  endingLineNumber = "234"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69D15346-32C5-47DF-A5A7-8698CF7C73A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/ViewControllers/Login/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "doLogin(username:password:isReadOnly:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A45F9F66-FDA9-4DF9-A305-8A7BA938196E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/Network Layer/Client/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "666"
+            endingLineNumber = "666"
+            landmarkName = "parameters"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A45F9F66-FDA9-4DF9-A305-8A7BA938196E - 9c854296870cd708"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartsigner_simulator.ApiClient.parameters.getter : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/Network%20Layer/Client/ApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "666"
+                  endingLineNumber = "666"
+                  offsetFromSymbolStart = "58764">
+               </Location>
+               <Location
+                  uuid = "A45F9F66-FDA9-4DF9-A305-8A7BA938196E - 29480172497d09cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #6 (Any, Any) -&gt; Any in smartsigner_simulator.ApiClient.parameters.getter : Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/Network%20Layer/Client/ApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "667"
+                  endingLineNumber = "667"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "479FEAE2-F88D-4B02-93BD-2444FB0249A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/Network Layer/Client/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "669"
+            endingLineNumber = "669"
+            landmarkName = "parameters"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B78C0C94-0B2D-49FD-A309-BCC216806C61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Alamofire/Source/SessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
+            landmarkName = "request(_:method:parameters:encoding:headers:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99B7D9E4-6A5D-47FE-B691-42CD6A92C978"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/Network Layer/Client/ApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "802"
+            endingLineNumber = "802"
+            landmarkName = "execute(responseBlock:progressBlock:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF862226-6BE2-45A9-9CE1-671504545CB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/Network Layer/Models/Folder Content/Response/PoolItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "init(fromDictionary:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2324D90-457C-4397-AD53-6486F6E61A75"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/ViewControllers/MainViewController - Inbox/MainViewController+BatchOperations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "startMultiMobileSignOperation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D2324D90-457C-4397-AD53-6486F6E61A75 - a279dc3eaa280644"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in smartsigner_simulator.MainViewController.startMultiMobileSignOperation() -&gt; ()"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/ViewControllers/MainViewController%20-%20Inbox/MainViewController+BatchOperations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "D2324D90-457C-4397-AD53-6486F6E61A75 - 9879626d8a045bce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.IndexPath) -&gt; smartsigner_simulator.PoolItem in closure #1 () -&gt; () in smartsigner_simulator.MainViewController.startMultiMobileSignOperation() -&gt; ()"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/ViewControllers/MainViewController%20-%20Inbox/MainViewController+BatchOperations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "229"
+                  endingLineNumber = "229"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19627EDB-30E7-4321-BE23-AF8A76EE4A22"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/ViewControllers/Document Detail Viewcontroller/Document Actions Business Logic/DocumentActionBusinessLogic.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "mobileSignAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A40C29A5-CBB6-4533-9A8C-8A8CFF09A669"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/ViewControllers/Document Detail Viewcontroller/DocumentViewController+ESignExtensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "completeSigning(withBase64String:isMobileSign:completition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7154AF7A-B7F5-498B-8BE9-9B64DDE0BEC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/Network Layer/Models/E-Sign/CompleteSignData/CompleteSignData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "init(document:createPackageResponse:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F22B650-D93F-4094-B959-72386AE88952"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "smartsigner/Network Layer/Models/E-Sign/CompleteSignData/CompleteSignData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "init(document:createPackageResponse:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F22B650-D93F-4094-B959-72386AE88952 - f1e3d8cae7daa062"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartsigner_simulator.CompleteSignData.__allocating_init(document: smartsigner_simulator.DocumentContent, createPackageResponse: smartsigner_simulator.ESignPackageResponse) -&gt; smartsigner_simulator.CompleteSignData"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/Network%20Layer/Models/E-Sign/CompleteSignData/CompleteSignData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "8348">
+               </Location>
+               <Location
+                  uuid = "7F22B650-D93F-4094-B959-72386AE88952 - f1e3d8cae7daa062"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "smartsigner_simulator.CompleteSignData.__allocating_init(document: smartsigner_simulator.DocumentContent, createPackageResponse: smartsigner_simulator.ESignPackageResponse) -&gt; smartsigner_simulator.CompleteSignData"
+                  moduleName = "smartsigner simulator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serdarcoskun/Projects/seneka/seneka-ebys-ios/smartsigner/Network%20Layer/Models/E-Sign/CompleteSignData/CompleteSignData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "7864">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

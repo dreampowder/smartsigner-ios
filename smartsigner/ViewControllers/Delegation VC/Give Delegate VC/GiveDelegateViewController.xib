@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GiveDelegateViewController" customModule="smartsigner" customModuleProvider="target">
+            <connections>
+                <outlet property="btnGiveDelegate" destination="zj5-RZ-mYc" id="3hH-eZ-lhe"/>
+                <outlet property="tableView" destination="rG7-sb-REx" id="2sn-bb-EZn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rG7-sb-REx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="FSs-yc-NyI"/>
+                        <outlet property="delegate" destination="-1" id="Kt2-8u-Kfg"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zj5-RZ-mYc" customClass="MDCButton">
+                    <rect key="frame" x="16" y="611" width="343" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="D1w-91-4zG"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="didTapGiveDelegateButton" destination="-1" eventType="touchUpInside" id="jtK-qM-xCb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94183081390000001" green="0.94254469870000002" blue="0.94194132090000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zj5-RZ-mYc" secondAttribute="bottom" constant="16" id="3Fm-a0-qNV"/>
+                <constraint firstAttribute="trailing" secondItem="rG7-sb-REx" secondAttribute="trailing" id="Abp-ia-bFj"/>
+                <constraint firstItem="rG7-sb-REx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IdX-tG-HS1"/>
+                <constraint firstItem="rG7-sb-REx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RO6-Sx-sni"/>
+                <constraint firstItem="zj5-RZ-mYc" firstAttribute="top" secondItem="rG7-sb-REx" secondAttribute="bottom" constant="8" id="akc-DV-LMB"/>
+                <constraint firstItem="zj5-RZ-mYc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="j7o-Yd-RQl"/>
+                <constraint firstAttribute="trailing" secondItem="zj5-RZ-mYc" secondAttribute="trailing" constant="16" id="ysS-Wv-Na8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="bKA-h0-f0S"/>
+            <point key="canvasLocation" x="55.200000000000003" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,364 @@
+"warning" = "Uyarı";
+"empty_string" = " ";
+"wildcard_string" = "::1";
+"error" = "Hata";
+"ok" = "Tamam";
+"error_unexpected"="İşleminiz gerçekleştirilirken beklenmedik bir hata ile karşılaşıldı. Lütfen daha sonra tekrar deneyin.";
+"receiver" = "Alıcı";
+"show_details" = "Detayları göster";
+"hide_details" = "Detayları gizle";
+"number" = "Sayı";
+"barcode" = "Barkod";
+"confirm" = "Onayla";
+"cancel" = "Vazgeç";
+"close" = "Kapat";
+"unimplemented" = "Bu özellik henüz eklenmemiştir.";
+"begin" = "Başlangıç";
+"end" = "Bitiş";
+"show_test_servers" = "Test Kurulumları Göster";
+"hide_test_servers" = "Test Kurulumları Gizle";
+"login_button_title" = "GİRİŞ";
+"login_corporate_code"="Kullanıcı Adı";
+"login_username"="Kullanıcı Adı";
+"login_password"="Şifre";
+"login_type_mobile"="MOBİL İMZA";
+"login_type_username"="KULLANICI ADI";
+"login_national_identity"="T.C. Kimlik No";
+"login_error_must_enter_company_code" = "Kurum seçmelisiniz.";
+"login_error_must_enter_username" = "Bir kullancı adı girmeniz gerekmektedir.";
+"login_error_must_enter_password" = "Geçerli bir şifre girmeniz gerekmektedir.";
+"login_error_incorrect_username_or_password" = "Hatalı kullanıcı adı veya parolası.";
+"btn_select_service_empty" = "Kurum seçmek için dokunun";
+"login_mobile_sign_text" = "::1 tarihinde ::2 EBYS mobil sistemine giriş yapmaktayım.";
+
+
+"btn_fast_login" = "Hızlı Giriş";
+
+"fast_login_sign_description" = "Kayıtlı bilgiler ile giriş yapın";
+"fast_login_logine_error_message" = "Hızlı giriş işlemi başarısız oldu, kayıtlı hızlı giriş bilgilerini kaldırmak ister misiniz?";
+"fast_login_alert_not_set_message" = "Hızlı giriş özelliğini kullanabilmeniz için öncelikle kendi hesabınız ile giriş yapıp bu özelliği etkinleştirmeniz gerekmektedir.";
+
+"fast_login_first_time_setup_message" = "Hızlı giriş özelliği sayesinde tek tuş ile Touch Id veya Face Id özelliklerini kullanarak giriş yapabilirsiniz. Şu anda giriş yapmış olduğunuz hesabınız için bu özelliği etkinleştirmek ister misiniz?";
+"fast_login_confirm_message" = "Bu hesabınız için hızlı giriş özelliğini etkinleştirmek istediğinize emin misiniz? Eğer hızlı giriş özelliği başka bir hesap için etkinleştirilmiş ise eski giriş bilgileri silinecektir.";
+
+"fast_login_select_action" = "Bir işlem seçin";
+"fast_login_remove" = "Hızlı giriş bilgilerini sil";
+"fasr_login_enable_for_this_account" = "Bu hesap için etkinleştir.";
+"fast_login_enable_success" = "Bu hesabınız için hızlı giriş işlemi başarı ile oluşturulmuştur.";
+"fast_login_clear_success" = "Hızlı giriş bilgileriniz kaldırılmıştır.";
+
+"document_notes" = "Notlar";
+"document_versions" = "Versiyonlar";
+"document_history" = "Tarihçe";
+
+"progress_loading_folder_contents" = "Klasör içeriği yükleniyor";
+"progress_loading_attachment" = "Ek yükleniyor";
+
+"sign" = "İmzala";       //imzala
+"sign_mobile" = "Mobil imza ile imzala";
+"reject" = "Reddet";     //reddet
+"initials" = "Paraf";   //paraf
+"transfer" = "Havale";   //havale
+"notes" = "Notlar";      //notlar
+"workflow" = "İş Akışı";   //iş akışı
+"remove_document" = "Dosyayı Kaldır";    //dosyayı kaldır
+"take_back" = "Geri Çek";  //geri çek
+"give_back" = "İade";  //iade
+"versions" = "Versiyonlar";   //versiyonlar
+"history" = "Tarihçe";    //tarihçe
+"archive" = "Dosyaya Kaldır";
+
+"e_sign" = "E-İmza";
+
+
+"read_again" ="Tekrar okut";
+"save"="Kaydet";
+"qr_code"="KareKod";
+"sign_smart_card_please_enter_pin" = "İmzalayabilmek için pin numarası girmeniz gerekmektedir.";
+"sign_smart_cart_certificate_not_found" = "Akıllı kart cihazınızda sertifika bulunamamıştır.";
+"sign_smart_card_error_cannot_activate_show_qr_code" = "Cihazınız aktive edilirken bir sorun ile karşılaştık, qr kodununuzu tekrar okumtanız gerekmektedir.";
+"action_sign_error_mobile_sign_not_found" = "Mobil imza işlemini yapabilmek için mobil imza ile giriş yapmış olmanız gerekmektedir.";
+"sign_smart_card_please_select_reader" = "Please select a reader";
+"action_sign_message_sign_confirm" = "Bu belgeyi imzalamak istediğinizden emin misiniz?";
+"action_sign_message_paraph_confirm" = "Bu belgeyi imzalamak istediğinizden emin misiniz?";
+"version" = "Versiyon";
+"target_department" = "Hedef Birim";
+"description" = "Açıklama";
+"logout" = "Çıkış Yap";
+"logout_message" = "Çıkış yapmak istediğinizden emin misiniz?";
+
+"delegate_tabbar_title_search" = "Vekalet Ara";
+"delegate_tabbar_title_create" = "Vekalet Ver";
+"delegate_title" = "Vekalet";
+"delegate_search_delegate_name_placeholder" = "Vekil Adı";
+"delegate_search_main_name_placeholder" = "Asil Adı";
+"delegate_search_prevail" = "Yürürlükte";
+"delegate_search_forfeit" = "Kaldırılmış";
+"delegate_search_all" = "Hepsi";
+"delegate_search_active" = "Aktif";
+"delegate_search_passive" = "Pasif";
+"delegate_search_list" = "Listele";
+"delegate_search_begin_date" = "Başlangıç Tarihi";
+"delegate_search_end_date" = "Bitiş Tarihi";
+"detailed_search" = "ARA";
+"select" = "Seç";
+"unselect" = "Seçimi Kaldır";
+"notes_no_notes_to_show" = "Görüntülemekte olduğunuz belgede kayıtlı not bulunamadı.";
+"delegated_by" = "yerine";
+
+"delegate_search_not_found" = "Girmiş olduğunuz kriterlere uygun kullanıcı bulunamadı";
+
+"begin_date" = "Başlangıç Tarihi";
+"end_date" = "Bitiş Tarihi";
+"document_number" = "Evrak Sayısı";
+"document_barcode_or_subject" = "Barkod veya Konu";
+"document_paraph" = "Paraf";
+"success" = "İşlem Başarılı";
+"document_takeback_message" = "Belgeyi geri çekmek istediğinize emin misiniz?";
+"document_reject_message" = "Belgeyi reddetmek istediğinize emin misiniz?";
+"document_reject_placeholder" = "Açıklama (zorunlu)";
+"yes" = "Evet";
+"no" = "Hayır";
+"document_giveback_placeholder" = "İade notu (zorunlu)";
+"document_giveback_message" = "Lütfen iade notu giriniz";
+
+"depoartment_type_empty" = "";
+"depoartment_type_merkez_birim" = "Merkez Birim";
+"depoartment_type_bagli_kurulus" = "Bağlı Kuruluş";
+"depoartment_type_tasra_birimi" = "Taşra Birimi";
+"depoartment_type_diger_kamu_kurum" = "Diğer Kamu Kurumu";
+"depoartment_type_sirket" = "Şirket";
+"depoartment_type_sahis" = "Şahıs";
+
+"distribution_type_geregi" = "Gereği";
+"distribution_type_information" = "Bilgi";
+"distribution_type_coordinated" = "Koordine";
+"distribution_type_do_not_use" = "Kullanma";
+"distribution_type_arz" = "Arz";
+"distribution_type_gorus" = "Görüş";
+
+"document_urgency_normal" = "Normal";
+"document_urgency_ivedi" = "İvedi";
+"document_urgency_cok_ivedi" = "Çok ivedi";
+"document_urgency_gunlu" = "Günlü";
+
+"transfer_source_depoartment" = "Birim";
+"transfer_source_user" = "Kullanıcı";
+"transfer_source_distribution" = "Dağıtım Grubu";
+
+"transfer_source_tap_here_to_add" = "Havale hedefi eklemek için dokunun.";
+
+"transfer_source_alert_title" = "Dağıtım Hedefi";
+"transfer_source_alert_message" = "Lütfen bir hedef türü seçin";
+
+"transfer_source_error_no_targets_set" = "En az bir dağıtım hedefi seçmelisiniz.";
+
+"recently_used" = "Sık Kullanılanlar";
+"search_result" = "Arama Sonuçları";
+
+"department_type_select_placeholder" = "Birim tipi";
+"department_search_placeholder" = "Arama metni";
+
+"department_search_error_department_empty" = "Bir birim tipi seçmeniz gerekmektedir.";
+"department_select_button_title" = "Seçilen birimleri listeye ekle (::1)";
+"department_select_button_title_empty" = "Birim(leri) seçin.";
+
+"remove_transfer_message" = "::1 isimli hedefi havale listesinden çıkarmak istediğinize emin misiniz?";
+"transfer_search_error_query_empty" = "Arama alanını boş bırakamazsınız.";
+
+"user_select_button_title" = "Seçilen kullanıcıları listeye ekle (::1)";
+"user_select_button_title_empty" = "Kullanıcı(ları) seçin.";
+"target_user" = "Hedef Kullanıcı";
+"submit" = "Gönder";
+"target_department_group" = "Hedef Dağıtım Grubu";
+
+"department_group_select_button_title" = "Seçilen grupları listeye ekle (::1)";
+"department_group_select_button_title_empty" = "Dağıtım grup(lar)ını seçin";
+"department_group_error_you_must_select_at_least_one" = "En az bir birimin seçili olması gerekmektedir.";
+
+"transfer_alert_submit_message_enter_note" = "Bir havale notu girin (isteğe bağlı)";
+"transfer_alert_submit_success" = "Belgeniz başarılı bir şekilde hedeflere havale edilmiştir.";
+
+"transfer_date_header_tap_to_set_date" = "Havale tarihi ayarlamak için dokunun";
+"transfer_date_header_selected_date" = "Havale tarihi: ::1";
+"transfer_date_header_alert_remove_date" = "Seçimi kaldır";
+"transfer_date_header_alert_select_date" = "Seç";
+
+"main_user" = "Asil";
+"delegate_user" = "Vekil";
+"give_delegate_tap_here_to_choose" = "Seçmek için dokunun";
+"give_delegate_tap_here_to_select_date" = "Tarih seçmek için dokunun";
+
+"give_delegation_dont_see_older_items" = "Gönderilmiş Eski Belgeleri Gizle";
+"give_delegation_dont_see_older_received_items" = "Alınmış Eski Belgeleri Gizle";
+"give_delegation_asil_user_can_operate_read_only_mode" = "Vekaleti Veren Kullanıcı Sisteme Salt Okunur Erişebilsin";
+"give_delegation_show_document_notes" = "Belge Notlarını Göster";
+"give_delegation_dont_see_older_items_for_department" = "Birime Gönderilmiş Eski Belgeleri Gizle";
+"give_delegation_dont_see_older_received_items_for_department" = "Birim Adına Alınmış Eski Belgeleri Gizle";
+"give_delegation_enter_note_placeholder" = "Açıklama (zorunlu)";
+"give_delegation_is_active" = "Vekalet aktif mi";
+
+"give_delegation_save_error_must_select_main_user" = "Bir asil kullanıcı seçmelisiniz";
+"give_delegation_save_error_must_select_delegate_user" = "Bir vekil kullanıcı seçmelisiniz.";
+"give_delegation_save_error_must_select_date" = "Başlangıç ve bitiş tarihi seçmelisiniz";
+"give_delegation_save_success" = "Vekalet işlemi başarıyla tamamlandı.";
+
+"document_action_archive_message"="Bu belgeyi dosya planına kaldırmak istediğinize emin misiniz? (Belge kodu ::1)";
+
+"user_search_title" = "Kullanıcı Ara";
+"sign_smart_card_error_no_sign_data" = "İmza verisi alınamadı!";
+
+"sign_smart_card_error_locked" = "Akıllı kart kilitlendi!";
+"sign_smart_card_error_wrong_pin" = "Hatalı pin kodu!";
+"sign_smart_card_error_generic" = "Belge imzalanırken bir sorun ile karşılaşıldı.\n Lütfen sistem yöneticinize başvurun.";
+"sign_smart_card_success" = "E-İmza işlemi başarı ile tamamlanmıştır.";
+"sign_mobile_success" = "Mobil işlemi başarı ile tamamlanmıştır.";
+"smart_card_status_searching" = "Kart okuyucu cihazlar aranıyor.";
+"smart_card_status_connecting" = "Kart okuyucu cihaza bağlanılıyor";
+"smart_card_status_getting_certificates" = "Sertifikalar yükleniyor";
+"smart_card_status_activating" = "Kart okuyucu lisansı kontrol ediliyor";
+"smart_card_select_a_certificate" = "Bir sertifika seçin";
+"smart_card_selected_certificate" = "Seçilen sertifika";
+"e_sign_creating_package" = "E-İmza paketi oluşturuluyor";
+"e_sign_signing_document" = "Belge imzalanıyor";
+"e_sign_alert_register_device_message" = "Seçmiş olduğunuz kart okuyucu henüz sisteme kaydedilmemiş, kayıt işlemini gerçekleştirmek için lütfen çıkacak olan ekrandan cihazınız üzerindeki karekodu okutun";
+"e_sign_alert_register_device_button_scan_qr_code" = "Karekodu okut";
+"e_sign_btn_title" = "İmzala";
+
+"version_alert_title" = "Uyarı";
+"version_alert_message" = "Uygulamanızın güncel bir sürümü bulunmaktadır (Sürüm ::1). Devam etmek için lütfen uygulamanızı güncelleyin.";
+"version_alert_update_button_title" = "Güncelle";
+
+"document_action_confirm_alert_message" = "Belgeyi onaylamak istediğinize emin misiniz?";
+
+"session_logout_title" = "Uyarı";
+"session_logout_message" = "Oturumunuz sonlandırılıyor. Giriş ekranına yönlendirileceksiniz.";
+
+"info" = "Bilgi";
+"deactivate_delegate_success" = "İşlem başarılıMDCTextInputController";
+
+"transfer_date_action_title" = "Havale Tarihi";
+"transfer_date_action_remove_date" = "Seçili tarihi kaldır";
+"transfer_date_action_pick_new_date" = "Yeni tarih seç";
+
+"give_back_empty_desc_error" = "Açıklama alanının girilmesi zorunludur.";
+"attachment" = "Eklenti";
+    
+"alert_message_pick_sign_method" = "Bir İmzalama yöntemi seçin";
+"alert_message_sign_method_e_sign" = "E-İmza";
+"alert_message_sign_method_mobile_sign" = "Mobil İmza";
+"alert_message_e_sign_module_not_enabled" = "Kurumunuzda e-imza atabilmeniz için gerekli olan e-imza moduülü bulunmamaktadır.";
+"alert_mobile_sign_fingerPrint" = "::1";
+"alert_message_loading_notes" = "Notlar getiriliyor";
+
+"login_error_turkish_identity_wrong" = "Lütfen geçerli bir T.C. Kimlik Numarası girin.";
+
+"alert_error_service_selector_ios_not_enabled" = "Kurumunuzun bu uygulama için lisansı bulunmamaktadır. Lütfen sistem yöneticinize başvurunuz.";
+
+"batch_ark_signer"="ArkSigner ile Toplu İmzala";
+"batch_transfer" = "Toplu Havale";
+"batch_sign" = "Toplu İmzala";
+"retry" = "Tekrar Dene";
+"batch_transfer_success" = "Bütün belgeler başarı ile havale edildi.";
+"batch_sign_success" = "Bütün belgeler başarı ile imzalandı.";
+"operation_failed" = "İşlem başarısız";
+"operation_failed_content" = "İşlem gerçekleştirilirken bir hata ile karşılaşıldı:\n::1";
+"document_related" = "İlgiler";
+"document_attachments" = "Ekler";
+"batch_operation_cancel_alert_title" = "Toplu işlemi iptal et";
+"batch_operation_cancel_alert_message" = "Henüz tamamlanmamış işlemler var. Kalan işlemleri iptal etmek istediğinize emin misiniz?";
+"document_attachment_physical" = "Fiziksel Belge";
+"date" = "Tarih";
+"subject" = "Konu";
+"file_plan"  = "Dosya Planı";
+"number" = "Sayı";
+"batch_confirm" = "Toplu Onay";
+"batch_confirm_success" = "Bütün belgeler başarı ile onaylandı.";
+
+"task_number" = "Kayıt No";
+"task_creator" = "Oluşturan";
+"task_responsive" = "Sorumlu";
+"task_status" = "Durum";
+"task_created_at" = "Oluşturulma";
+"task_end_at" = "Son";
+"task_document" = "Doküman";
+"task_notes" = "Talimatlı Notlar";
+"task_users" = "Kullanıcılar";
+"task_operations" = "İşlemler";
+"task_detail_title" = "Talimatlı Not";
+"task_comment_placeholder" = "Talimat ile ilgili yorumunuzu buradan yazabilirsiniz.";
+"tap_to_select" = "Seçmek için dokunun";
+"tap_to_enter" = "Yazmak için dokunun";
+"task_status_waiting" = "Beklemede";
+"task_status_finished" = "Bitirildi";
+"task_status_draft" = "Taslak";
+"apply_filter" = "Listele";
+"task_operation_close" = "Bitir";
+"task_operatino_reopen" = "Tekrar Aç";
+"task_user_logic_select_action" = "Bir aksiyon seçiniz";
+"please_wait" = "Lütfen bekleyin";
+"batch_confirm_question" = "::1 adet belge onaylanacaktır.";
+"operation_cancelled" = "İşlem iptal edildi";
+
+"login_button_title_username" = "K. Adı";
+"login_button_title_mobile" = "Mobil İmza";
+"login_button_title_e_sign" = "E-İmza";
+"share_document" = "Paylaş";
+"operation_successful" = "İşlem başarılı";
+"transfer_template_add_duplicate_error" = "Bir veya daha fazla kayıt zaten listenize mevcut. Mevcut olan kayıtlar tekrar eklenmemiştir.";
+"end_delegation" = "Vekaleti Sonlandır";
+"login_as_readonly" = "Salt Okunur";
+"document_distribution_flow" = "Dağıtım Onayı";
+"distribution_flow_segment_flow" = "Akış";
+"distribution_flow_segment_distribution" = "Güncel Dağıtım";
+"da_flow_state_normal" = "Sonraki Aşama";
+"da_flow_state_waiting" = "Beklemede";
+"da_flow_state_finished" = "Tamamlandı";
+"da_flow_state_declined" = "Reddedildi";
+"da_flow_btn_copy" = "Kopyala";
+"da_flow_please_select_distribution" = "Lütfen bir dağıtım tipi seçin";
+"da_flow_tap_here_to_add_flow" = "Akış eklemek için dokunun";
+"da_flow_tap_here_to_add_distribution" = "Dağıtım eklemek için dokunun";
+"da_flow_tap_here_to_add_note" = "Not eklemek için dokunun";
+"da_flow_add_distribution_title" = "Dağıtım Ekle";
+"da_flow_add_flow_title" = "Akış Ekle";
+"da_flow_btn_approve_title" = "Onayla";
+"da_flow_btn_decline_title" = "Reddet";
+
+"use_last_distribution_automatically" = "Son dağıtımı otomatik kullan";
+"show_connected_departments" = "Bağlı birimleri göster";
+"dont_warn_on_success" = "Başarılı işlemlerde uyarı verme";
+"automatically_add_added_department_to_flow" = "Eklenen birimin yönetim birimini akışa otomatik ekle";
+"dont_show_distribution_note" = "Dağıtım notu ekranını gösterme";
+"apply" = "Uygula";
+"da_action_approve_title" = "Dağıtımı onayla";
+"da_action_decline_title" = "Dağıtımı Reddet";
+"da_action_input_placeholder" = "Not";
+"da_action_decline_empty_error" = "Reddetme işlemi için bir not girmeniz gerekmektedir.";
+"da_flow_error_approve_empty_distribution" = "En az bir dağıtım hedefi seçmelisiniz.";
+"add_note"="Not Ekle";
+"push_error_document_not_found" = "Görüntülemek istediğiniz belge sizden önce değiştirilmiştir.";
+"settings_push_title" = "Bu cihaz üzerinden anlık bildirimleri al";
+"settings_language_title" = "Uygulama dili";
+"settings_biometric_title" = "Hızlı giriş";
+"settings_title" = "Uygulama ayarları";
+"settings_version" = "Uygulama sürümü";
+"alert_message_sign_e_sign_app" = "ArkSigner";
+"alert_e_sign_arksigner_success" = "Belgeniz ArkSigner üzerinden başarı ile imzalandı.";
+"alert_e_sign_arksigner_error" = "Belgeniz imzalanırken bir hata ile karşılaşıldı.\n::1";
+
+"batch_ark_signer_peraparing" = "Belgeler hazırlanıyor";
+"batch_ark_signer_complete" = "İşlem tamamlandı";
+"alert_e_sign_arksigner_app_not_founc" = "İşleminizi tamamlayabilmeniz için ArkSigner uygulamasını indirmeniz gerekmektedir.";
+"alert_e_sign_arksigner_download" = "Yükle";
+
+"alert_e_sign_disabled_message" = "Seçmiş olduğunuz imza yöntemi için lisansınız bulunmamaktadır.";
+
+"sign_queue_status_waiting" = "Uygulamadan cevap bekliyor";
+"sign_queue_status_processing" = "Belge işleniyor";
+"sign_queue_status_error_occured" = "Belge imzalanırken bir hata ile karşılaşıldı";
+"sign_queue_status_completed" = "İmzalandı";
+"sign_queue_status_unknown" = "Beklenmedik hata";
+"alert_message_sign_method_multi_mobile_sign" = "Toplu Mobil İmza";
+"alert_message_multi_mobile_sim_warning" = "Toplu mobil imza işlemlerinizin sorunsuz gerçekleşebilmesi için yeni nesil 128k SIM kart kullanımı gerekmektedir. Mevcut SIM kartınız uyumlu değilse, işlemler başarısız olacaktır. ";
+"alert_action_multi_mobile_dont_show_again" = "Bir daha gösterme";

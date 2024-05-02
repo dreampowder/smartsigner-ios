@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DateCell" rowHeight="122" id="KGk-i7-Jjw" customClass="TaskFilterInputFieldTableViewCell" customModule="smartsigner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="412" height="122"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1U-kQ-zEJ">
+                        <rect key="frame" x="4" y="4" width="404" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U6M-AT-QEV" customClass="MDCTextField">
+                        <rect key="frame" x="4" y="26" width="200" height="92"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GlH-Sw-S4l" customClass="MDCTextField">
+                        <rect key="frame" x="208" y="26" width="200" height="92"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="U6M-AT-QEV" secondAttribute="bottom" constant="4" id="5Xe-Ab-n7Z"/>
+                    <constraint firstItem="GlH-Sw-S4l" firstAttribute="leading" secondItem="U6M-AT-QEV" secondAttribute="trailing" constant="4" id="CXr-xJ-sWz"/>
+                    <constraint firstItem="GlH-Sw-S4l" firstAttribute="width" secondItem="U6M-AT-QEV" secondAttribute="width" id="Kgd-DH-AAy"/>
+                    <constraint firstItem="U6M-AT-QEV" firstAttribute="top" secondItem="d1U-kQ-zEJ" secondAttribute="bottom" constant="4" id="NQP-bf-Czb"/>
+                    <constraint firstItem="d1U-kQ-zEJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="USB-A9-puu"/>
+                    <constraint firstAttribute="trailing" secondItem="GlH-Sw-S4l" secondAttribute="trailing" constant="4" id="dh6-nn-FCi"/>
+                    <constraint firstAttribute="trailing" secondItem="d1U-kQ-zEJ" secondAttribute="trailing" constant="4" id="iza-Tc-2Wy"/>
+                    <constraint firstAttribute="bottom" secondItem="GlH-Sw-S4l" secondAttribute="bottom" constant="4" id="oKI-Eh-sqn"/>
+                    <constraint firstItem="GlH-Sw-S4l" firstAttribute="top" secondItem="d1U-kQ-zEJ" secondAttribute="bottom" constant="4" id="rnS-Kc-gJg"/>
+                    <constraint firstItem="d1U-kQ-zEJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="tjc-Ih-xvc"/>
+                    <constraint firstItem="U6M-AT-QEV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="xvU-Tm-hJ1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="d1U-kQ-zEJ" id="nab-6F-bIA"/>
+                <outlet property="txtValue" destination="U6M-AT-QEV" id="Pin-wx-1QS"/>
+                <outlet property="txtValue2" destination="GlH-Sw-S4l" id="aBG-8S-cPK"/>
+            </connections>
+            <point key="canvasLocation" x="71.014492753623188" y="114.50892857142857"/>
+        </tableViewCell>
+    </objects>
+</document>

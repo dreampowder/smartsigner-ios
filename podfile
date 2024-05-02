@@ -1,0 +1,54 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+def shared_pods
+   pod 'MotionInterchange'
+   # MaterialComponents versiyonu mutlaka 96 olmalı. 
+#   pod 'MaterialComponents', '~>96.0.0'
+   pod 'MaterialComponents', :git => 'https://github.com/dreampowder/material-components-ios', :branch => 'v96-fixed'
+   pod 'Alamofire', '~>4.9.0'
+   pod 'Kingfisher'
+   pod 'NVActivityIndicatorView'
+   pod 'IQKeyboardManagerSwift'
+   pod 'FSCalendar'
+   pod 'QRCodeReaderViewController'
+   pod 'EmptyDataSet-Swift'
+   pod 'Firebase/Core'
+   pod 'Firebase/Crashlytics'
+   pod 'Firebase/Analytics'
+   pod 'Firebase/Messaging'
+end
+
+target 'sanayi' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  shared_pods
+  # Pods for sanayi
+
+end
+
+target 'smartsigner' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  shared_pods
+  # Pods for smartsigner
+
+end
+
+target 'smartsigner simulator' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  shared_pods
+  # Pods for smartsigner simulator
+
+end
+
+post_install do |installer|
+    installer.generated_projects.each do |project|
+          project.targets.each do |target|
+              target.build_configurations.each do |config|
+                  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+               end
+          end
+   end
+end

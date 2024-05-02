@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Cell" rowHeight="149" id="oez-vq-5vB" customClass="DocumentItemTableViewCell" customModule="sanayi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oez-vq-5vB" id="w2g-8h-rPn">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taha ÖZORAÇ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5le-T8-r57">
+                        <rect key="frame" x="19" y="15" width="100.5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="12" id="Z4f-3o-uf0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobil Deneme 2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDO-Ur-ub2">
+                        <rect key="frame" x="19" y="37" width="92" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="17" id="y5c-Ng-QOb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Sağlık araştırmaları genel müdürlüğü evrak" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1c-1H-zwy">
+                        <rect key="frame" x="19" y="58" width="264" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="qC1-qu-vTC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26.04.2018 14:04" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qkj-JH-F4w">
+                        <rect key="frame" x="267" y="15" width="100" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="1ad-jV-0Q5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RET (İmza) Güncelleme" textAlignment="right" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NoT-Zm-8DK">
+                        <rect key="frame" x="287" y="31" width="80" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="ygB-lS-yZC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                        <color key="textColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QvZ-zl-1n5">
+                        <rect key="frame" x="4" y="68.5" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="AJg-zD-650"/>
+                            <constraint firstAttribute="width" constant="12" id="GYf-EB-Ec3"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bRK-MZ-Gup">
+                        <rect key="frame" x="0.0" y="0.0" width="16" height="149"/>
+                        <color key="backgroundColor" red="0.99957126380000005" green="0.34321278329999999" blue="0.1381319463" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NoT-Zm-8DK" secondAttribute="bottom" constant="8" id="2VA-Dg-4M5"/>
+                    <constraint firstItem="r1c-1H-zwy" firstAttribute="leading" secondItem="w2g-8h-rPn" secondAttribute="leadingMargin" constant="4" id="2xx-ti-e0P"/>
+                    <constraint firstItem="Qkj-JH-F4w" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5le-T8-r57" secondAttribute="trailing" constant="8" id="8e2-fe-Y03"/>
+                    <constraint firstItem="NoT-Zm-8DK" firstAttribute="top" secondItem="Qkj-JH-F4w" secondAttribute="bottom" constant="4" id="Ahg-1m-XFp"/>
+                    <constraint firstItem="5le-T8-r57" firstAttribute="leading" secondItem="w2g-8h-rPn" secondAttribute="leadingMargin" constant="4" id="Bm8-8T-Rq3"/>
+                    <constraint firstItem="bRK-MZ-Gup" firstAttribute="leading" secondItem="w2g-8h-rPn" secondAttribute="leading" id="HEr-Pu-9yy"/>
+                    <constraint firstItem="5le-T8-r57" firstAttribute="top" secondItem="w2g-8h-rPn" secondAttribute="topMargin" constant="4" id="HXW-0N-PoT"/>
+                    <constraint firstItem="PDO-Ur-ub2" firstAttribute="leading" secondItem="w2g-8h-rPn" secondAttribute="leadingMargin" constant="4" id="L59-u3-jzG"/>
+                    <constraint firstItem="PDO-Ur-ub2" firstAttribute="top" secondItem="5le-T8-r57" secondAttribute="bottom" constant="4" id="M01-y9-uTS"/>
+                    <constraint firstAttribute="trailing" secondItem="Qkj-JH-F4w" secondAttribute="trailing" constant="8" id="UiJ-2y-twc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="r1c-1H-zwy" secondAttribute="bottom" constant="4" id="biP-Qc-aHq"/>
+                    <constraint firstItem="bRK-MZ-Gup" firstAttribute="top" secondItem="w2g-8h-rPn" secondAttribute="top" id="cDN-kr-eZ7"/>
+                    <constraint firstItem="r1c-1H-zwy" firstAttribute="top" secondItem="PDO-Ur-ub2" secondAttribute="bottom" constant="4" id="fDD-zn-9Cd"/>
+                    <constraint firstItem="QvZ-zl-1n5" firstAttribute="leading" secondItem="w2g-8h-rPn" secondAttribute="leading" constant="4" id="gpl-WR-5sm"/>
+                    <constraint firstItem="Qkj-JH-F4w" firstAttribute="top" secondItem="w2g-8h-rPn" secondAttribute="topMargin" constant="4" id="hYX-0N-qtE"/>
+                    <constraint firstItem="NoT-Zm-8DK" firstAttribute="leading" secondItem="r1c-1H-zwy" secondAttribute="trailing" constant="4" id="iIm-kZ-21b"/>
+                    <constraint firstItem="QvZ-zl-1n5" firstAttribute="centerY" secondItem="w2g-8h-rPn" secondAttribute="centerY" id="iaR-cp-aWY"/>
+                    <constraint firstAttribute="bottom" secondItem="bRK-MZ-Gup" secondAttribute="bottom" id="kCG-ZH-ViU"/>
+                    <constraint firstItem="QvZ-zl-1n5" firstAttribute="trailing" secondItem="bRK-MZ-Gup" secondAttribute="trailing" id="nXc-KJ-yfr"/>
+                    <constraint firstAttribute="trailing" secondItem="NoT-Zm-8DK" secondAttribute="trailing" constant="8" id="v0s-Ng-pwt"/>
+                    <constraint firstItem="NoT-Zm-8DK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="PDO-Ur-ub2" secondAttribute="trailing" constant="4" id="zZf-1Q-DnG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgRead" destination="QvZ-zl-1n5" id="LVz-eb-oId"/>
+                <outlet property="lblContent" destination="r1c-1H-zwy" id="Jp6-9u-q3j"/>
+                <outlet property="lblDate" destination="Qkj-JH-F4w" id="jrc-2h-Y8m"/>
+                <outlet property="lblFrom" destination="PDO-Ur-ub2" id="8Sr-Kz-l4d"/>
+                <outlet property="lblTitle" destination="5le-T8-r57" id="pOJ-c9-4Nn"/>
+                <outlet property="lblType" destination="NoT-Zm-8DK" id="AGw-bm-Te9"/>
+                <outlet property="viewBatchSelectionIndicator" destination="bRK-MZ-Gup" id="R3o-nQ-ify"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="77.811094452773617"/>
+        </tableViewCell>
+    </objects>
+</document>

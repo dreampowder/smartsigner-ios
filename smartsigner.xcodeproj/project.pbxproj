@@ -802,6 +802,7 @@
 		00A9A7E92407DAB700E7A67A /* FBPushMessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A9A7E32406AFF900E7A67A /* FBPushMessageData.swift */; };
 		00A9A7EA2407DAB700E7A67A /* FBPushMessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A9A7E32406AFF900E7A67A /* FBPushMessageData.swift */; };
 		00B3A98F2226AFAD0021361C /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B3A98E2226AFAC0021361C /* ExternalAccessory.framework */; };
+		00C929A72BE4DA270089CFC5 /* ESignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0005673D21BFEDDD000A25B7 /* ESignViewController.m */; };
 		00CC6F9F23F3418200D06F48 /* DistributionFlowSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC6F9D23F3418200D06F48 /* DistributionFlowSideMenuViewController.swift */; };
 		00CC6FA023F3418200D06F48 /* DistributionFlowSideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CC6F9E23F3418200D06F48 /* DistributionFlowSideMenuViewController.xib */; };
 		00CC6FA123F3430800D06F48 /* DistributionFlowSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC6F9D23F3418200D06F48 /* DistributionFlowSideMenuViewController.swift */; };
@@ -4037,6 +4038,7 @@
 				0075CC29222E5FBC00B9ECB8 /* RSSelectionMenuController.swift in Sources */,
 				0075CC2A222E5FBC00B9ECB8 /* Utilities.swift in Sources */,
 				0075CC2B222E5FBC00B9ECB8 /* DocumentItemTableViewCell.swift in Sources */,
+				00C929A72BE4DA270089CFC5 /* ESignViewController.m in Sources */,
 				00F4026123BB855B00F18C4D /* GetDistributionDetailResponse.swift in Sources */,
 				00D2E06E238BE685008CCD6E /* RunBookmarkResponse.swift in Sources */,
 				004250F22384268D005CBDB8 /* TaskListViewController.swift in Sources */,
@@ -4288,6 +4290,7 @@
 				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.seneka.smartsigner.v2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "smartsigner/ViewControllers/E-Signing ARK/smartsigner-Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = SmartSignerSwift.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";

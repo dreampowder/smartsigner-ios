@@ -33,8 +33,7 @@
                   continueAfterRunningActions = "No"
                   symbolName = "UIViewAlertForUnsatisfiableConstraints"
                   moduleName = "UIKitCore"
-                  usesParentBreakpointCondition = "Yes"
-                  offsetFromSymbolStart = "0">
+                  usesParentBreakpointCondition = "Yes">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -82,8 +81,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "234"
-                  endingLineNumber = "234"
-                  offsetFromSymbolStart = "1132">
+                  endingLineNumber = "234">
                </Location>
                <Location
                   uuid = "AE1E0105-87FB-404E-819F-5E84E0667CEE - 33522dcb8b8d8598"
@@ -97,8 +95,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "234"
-                  endingLineNumber = "234"
-                  offsetFromSymbolStart = "1080">
+                  endingLineNumber = "234">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -146,8 +143,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "666"
-                  endingLineNumber = "666"
-                  offsetFromSymbolStart = "58764">
+                  endingLineNumber = "666">
                </Location>
                <Location
                   uuid = "A45F9F66-FDA9-4DF9-A305-8A7BA938196E - 29480172497d09cd"
@@ -161,8 +157,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "667"
-                  endingLineNumber = "667"
-                  offsetFromSymbolStart = "52">
+                  endingLineNumber = "667">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -258,8 +253,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "229"
-                  endingLineNumber = "229"
-                  offsetFromSymbolStart = "144">
+                  endingLineNumber = "229">
                </Location>
                <Location
                   uuid = "D2324D90-457C-4397-AD53-6486F6E61A75 - 9879626d8a045bce"
@@ -273,8 +267,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "229"
-                  endingLineNumber = "229"
-                  offsetFromSymbolStart = "116">
+                  endingLineNumber = "229">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -354,8 +347,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "8348">
+                  endingLineNumber = "148">
                </Location>
                <Location
                   uuid = "7F22B650-D93F-4094-B959-72386AE88952 - f1e3d8cae7daa062"
@@ -369,8 +361,7 @@
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "7864">
+                  endingLineNumber = "148">
                </Location>
             </Locations>
          </BreakpointContent>

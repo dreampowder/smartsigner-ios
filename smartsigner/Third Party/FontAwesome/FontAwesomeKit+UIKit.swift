@@ -139,6 +139,7 @@ public extension FontAwesomeKit where Base: UIButton {
         base.setTitle(type.fa.cCharString, for: state)
     }
 }
+
 public extension UIBarButtonItem {
     /// Newly initialized item with the fontAwesome icon.
     ///
